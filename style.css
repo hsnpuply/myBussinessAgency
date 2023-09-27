@@ -1,0 +1,20 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#navbarNav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}

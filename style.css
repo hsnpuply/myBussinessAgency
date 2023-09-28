@@ -110,7 +110,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(8px);
+    transform: translateY(.82rem);
 }
 
 #services .btn-primary{
@@ -184,4 +184,75 @@ body{
     font-weight: 600;
     margin-bottom: 30px;
 }
-/* Social media */
+
+.social-icons{
+    padding: 40px 0;
+}
+
+.social-img{
+    width: 160px;
+    height: 160px;
+    transition:all .5s ease-in-out;
+    margin: 0 15px;
+    border: 3px solid #7b1798;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-12px) rotate(-3deg);
+    border: 3px solid #6a217e;
+
+}
+/* end of  Social media */
+
+
+/* Footer */
+#footer{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+}
+
+.footer-box{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 12px;
+    font-size: 25px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 2px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    border-radius: 50%;
+    }
+
+    .heading-contact{
+        margin-top: 20px;
+    }
+
+    .footer-box .form-control{
+        max-width: 400px;
+    }
+
+    .footer-box .btn-primary{
+        box-shadow: none m !important;
+        border: none;
+        margin-top: 10px;
+        background-image:linear-gradient(to right,#a517ba,#5f1782);
+    }
+
+    hr{
+        background-color: #fff;
+        height: 4px;
+    }
+
+    .copy-right{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+/* End of Footer */

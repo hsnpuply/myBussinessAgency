@@ -18,3 +18,59 @@ body{
     background-image:linear-gradient(to right,#a517ba,#5f1782);
     padding: 0 !important;
 }
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.nav-item a{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+#banner{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn{
+    width: 55px;
+}
+.play-btn-text{
+    position: relative;
+}
+.play-btn-text span{
+    font-size: 1.5rem;
+    margin : 020px;
+}
+
+.play-btn-text span::after{
+    content: '';
+    background-color: #b51ed3;
+    height: .6rem;
+    width:0% ;
+    border: 0px solid black;
+    position: absolute;
+    bottom: -5px;
+    left: 75px;
+    transition: all .3s ease-in-out;
+}
+.play-btn-text span:hover:after{
+    width:25%;
+    border: 1px solid black;
+    transition: all .3s ease-in-out;
+
+}
+
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
